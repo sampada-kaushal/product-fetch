@@ -50,8 +50,8 @@ export default class ProductsController {
             products: productsList,
             entries_per_page: productsPerPage,
             total_results: totalNumProducts,
-            page: page,
-            filters: filters
+            page: page
+           // filters: filters
         };
         return res.json(response);
     }
