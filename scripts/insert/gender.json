@@ -1,0 +1,10 @@
+[
+	{
+		"genderID": 1, 
+		"genderName": "men"
+	},
+	{
+		"genderID": 2, 
+		"genderName": "women"
+	}
+]
