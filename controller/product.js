@@ -49,9 +49,9 @@ export default class ProductsController {
             message: statusMessage,
             products: productsList,
             entries_per_page: productsPerPage,
-            total_results: totalNumProducts
-            // page: page,
-            // filters: filters,
+            total_results: totalNumProducts,
+            page: page,
+            filters: filters
         };
         return res.json(response);
     }
